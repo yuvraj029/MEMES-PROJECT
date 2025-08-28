@@ -16,8 +16,10 @@ const AUDIOS = [
   { title: "galaxy-meme", src: "memes/audios/galaxy-meme.mp3" },
   { title: "gegagedigedagedago-full", src: "memes/audios/gegagedigedagedago-full.mp3" },
   { title: "hold-up-wait-a-minute-sound-effect", src: "memes/audios/hold-up-wait-a-minute-sound-effect.mp3" },
+  { title: "shocked-sound-effect", src: "memes/audios/shocked-sound-effect.mp3" },
   { title: "slap-oh", src: "memes/audios/slap-oh.mp3" },
   { title: "Spongebob - Disappointed Sound Effect", src: "memes/audios/Spongebob - Disappointed Sound Effect.mp3" },
   { title: "tehelka-omlette", src: "memes/audios/tehelka-omlette.mp3" },
+  { title: "teleport", src: "memes/audios/teleport.mp3" },
   { title: "ui once", src: "memes/audios/ui once.mp3" }
 ];

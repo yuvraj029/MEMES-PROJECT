@@ -4,6 +4,11 @@ body {
   background: #0b0e14;
   color: #e4e7ee;
 }
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 45%;
+}
 
 .wrap {
   max-width: 1000px;
