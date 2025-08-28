@@ -6,5 +6,18 @@ const AUDIOS = [
   { title: "bakugou-edit-oi-oi-oi", src: "memes/audios/bakugou-edit-oi-oi-oi.mp3" },
   { title: "bonk", src: "memes/audios/bonk.mp3" },
   { title: "chalti-firti-cocaine", src: "memes/audios/chalti-firti-cocaine.mp3" },
-  { title: "dbz punch", src: "memes/audios/dbz punch.mp3" }
+  { title: "dbz punch", src: "memes/audios/dbz punch.mp3" },
+  { title: "do it", src: "memes/audios/do it.mp3" },
+  { title: "emotional-damage-meme", src: "memes/audios/emotional-damage-meme.mp3" },
+  { title: "explosion-meme_dTCfAHs", src: "memes/audios/explosion-meme_dTCfAHs.mp3" },
+  { title: "fart-with-extra-reverb", src: "memes/audios/fart-with-extra-reverb.mp3" },
+  { title: "flashbanggg", src: "memes/audios/flashbanggg.mp3" },
+  { title: "frog-laughing-meme", src: "memes/audios/frog-laughing-meme.mp3" },
+  { title: "galaxy-meme", src: "memes/audios/galaxy-meme.mp3" },
+  { title: "gegagedigedagedago-full", src: "memes/audios/gegagedigedagedago-full.mp3" },
+  { title: "hold-up-wait-a-minute-sound-effect", src: "memes/audios/hold-up-wait-a-minute-sound-effect.mp3" },
+  { title: "slap-oh", src: "memes/audios/slap-oh.mp3" },
+  { title: "Spongebob - Disappointed Sound Effect", src: "memes/audios/Spongebob - Disappointed Sound Effect.mp3" },
+  { title: "tehelka-omlette", src: "memes/audios/tehelka-omlette.mp3" },
+  { title: "ui once", src: "memes/audios/ui once.mp3" }
 ];

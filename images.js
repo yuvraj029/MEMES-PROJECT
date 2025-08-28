@@ -8,5 +8,6 @@ const IMAGES = [
   { title: "sanni-dancer", src: "memes/images/sanni-dancer.jpg" },
   { title: "shocked", src: "memes/images/shocked.jpg" },
   { title: "vegeta=stare", src: "memes/images/vegeta=stare.jpg" },
+  { title: "wojak cry", src: "memes/images/wojak cry.png" },
   { title: "wojak", src: "memes/images/wojak.jpg" }
 ];
