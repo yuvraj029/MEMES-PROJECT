@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Audio Memes</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="audios.js"></script>
+</head>
+<body class="home">
+
+  <div class="wrap">
+    <a href="index.html" class="back">⬅ Back to Home</a>
+    <h1>🎵 Audio Memes</h1>
+    <div class="grid" id="audios"></div>
+  </div>
+
+  <script>
+    const audGrid = document.getElementById('audios');
+    AUDIOS.forEach(m=>{
+      audGrid.innerHTML += `
+        <div class="card">
+          <audio controls src="${m.src}"></audio>
+          <h3>${m.title}</h3>
+          <a class="btn" href="${m.src}" download>Download</a>
+        </div>`;
+    });
+  </script>
+</body>
+</html>

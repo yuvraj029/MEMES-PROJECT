@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #0b0e14;
+  color: #e4e7ee;
+}
+
+.wrap {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-weight: 700;
+}
+
+h3 {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.back {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #aaa;
+}
+.back:hover {
+  color: #fff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: #ff0062a9;
+  border: 1px solid #ff009d;
+  border-radius: 10px;
+  padding: 12px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+}
+
+/* uniform images */
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: #ff009d;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+/* videos safe aspect */
+.card video {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  border-radius: 8px;
+  background: rgba(134, 0, 45, 0.575);
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+/* audio default player */
+.card audio {
+  width: 100%;
+  border-radius: 8px;
+  background: #ff80ffc5;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+/* buttons */
+.btn {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 14px;
+  padding: 6px 10px;
+  background: #ff3d5d;
+  color: #fff;
+  border-radius: 6px;
+  text-align: center;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #ff975a;
+  transform: scale(1.05);
+}
+
+/* home menu */
+.menu {
+  display: grid;
+  gap: 20px;
+  text-align: center;
+}
+.menu .btn {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 14px;
+}
+/* home page special background */
+body.home {
+  background: linear-gradient(135deg, #1a2a6c, #b21f68, #982dfd);
+  background-size: 400% 400%;
+  animation: gradientMove 12s ease infinite;
+  color: #fff;
+}
+
+/* animation keyframes */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
